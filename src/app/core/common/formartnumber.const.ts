@@ -1,0 +1,1 @@
+export const formatNumber = "{valueY.formatNumber([#0f0]#,###|[#f00](#,###)|[#ccc]'-')}";

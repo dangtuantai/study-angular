@@ -1,0 +1,31 @@
+/* Thêm các quy tắc CSS để căn giữa mảng đăng nhập và áp dụng màu xanh nước biển */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50%; /* Cài đặt chiều cao để căn giữa theo chiều cao của màn hình */
+  background-color: #0077be; /* Màu xanh nước biển */
+}
+.login-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Cài đặt chiều cao để căn giữa theo chiều cao của màn hình */
+  background-color: #0077be; /* Màu xanh nước biển */
+}
+.login-form {
+  width: 300px; /* Cài đặt chiều rộng của mảng đăng nhập */
+  padding: 20px; /* Cài đặt khoảng trắng bên trong mảng đăng nhập */
+  border-radius: 8px; /* Bo tròn các góc của mảng đăng nhập */
+  background-color: white; /* Màu nền mảng đăng nhập */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hiệu ứng bóng đổ */
+}
+
+.login-form-margin {
+  margin-top: 16px; /* Khoảng cách giữa các phần tử trong mảng đăng nhập */
+}
+
+.login-form-button {
+  width: 100%; /* Cài đặt chiều rộng của nút đăng nhập */
+}

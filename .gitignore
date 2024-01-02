@@ -11,6 +11,9 @@
 npm-debug.log
 yarn-error.log
 
+# profiling files
+chrome-profiler-events*.json
+
 # IDEs and editors
 .idea/
 .project
@@ -34,6 +37,7 @@ yarn-error.log
 /connect.lock
 /coverage
 /libpeerconnection.log
+npm-debug.log
 testem.log
 /typings
 
