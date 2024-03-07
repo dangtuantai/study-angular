@@ -12,6 +12,20 @@ const routes: Routes = [
         redirectTo: 'dashboard',
         pathMatch: 'full',
       },
+      {
+        path: 'setting',
+        loadChildren: () =>
+          import('./settings/settings-routing.module').then(
+            (m) => m.SettingsRoutingModule
+          ),
+      },
+      {
+        path: 'test',
+        loadChildren: () =>
+          import('./test/test-routing.module').then(
+            (m) => m.TestRoutingModule
+          ),
+      },
     ],
   },
 ];

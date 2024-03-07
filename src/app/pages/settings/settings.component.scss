@@ -1,0 +1,15 @@
+:host::ng-deep {
+  .ant-tabs-nav {
+    min-width: 250px;
+  }
+
+  nz-tabset {
+    .ant-tabs-tab-btn {
+      width: 100%;
+    }
+
+    .ant-tabs-content-holder {
+      background-color: var(--bs-white);
+    }
+  }
+}

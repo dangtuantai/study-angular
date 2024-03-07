@@ -1,6 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { RouterLink, RouterOutlet } from '@angular/router';
 import { NzIconModule } from 'ng-zorro-antd/icon';
 import { NzLayoutModule } from 'ng-zorro-antd/layout';
 import { NzMenuModule } from 'ng-zorro-antd/menu';
@@ -10,7 +10,7 @@ import { NzMenuModule } from 'ng-zorro-antd/menu';
   standalone: true,
   templateUrl: './main-page.component.html',
   styleUrls: ['./main-page.component.scss'],  
-  imports: [CommonModule, RouterOutlet, NzIconModule, NzLayoutModule, NzMenuModule],
+  imports: [CommonModule, RouterOutlet, NzIconModule, NzLayoutModule, NzMenuModule,RouterLink,],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class MainPageComponent { 
