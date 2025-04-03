@@ -18,6 +18,7 @@
     "@angular/platform-browser": "^17.0.0",
     "@angular/platform-browser-dynamic": "^17.0.0",
     "@angular/router": "^17.0.0",
+    "@microsoft/signalr": "^8.0.0",
     "angular-oauth2-oidc": "^17.0.1",
     "jsonwebtoken": "^9.0.2",
     "ng-zorro-antd": "^17.1.0",

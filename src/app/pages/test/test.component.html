@@ -1,1 +1,8 @@
-<p>Thanh ăn cức heo</p>
+<div class="heart-container">
+  <div *ngFor="let heart of hearts; let i = index" 
+       >
+       <div *ngIf="heart" class="heart" [style.transform]="'rotate(' + (i * (360 / hearts.length)) + 'deg) translate(80px) rotate(-' + (i * (360 / hearts.length)) + 'deg)'"></div>
+
+  </div>
+  <div *ngIf="showMessage" class="message">Tuấn Tài Yêu Ngọc Mai</div>
+</div>
